@@ -1,0 +1,474 @@
+/*Basic Page Styling*/
+
+*{
+	/*font-family: 'Bungee Inline', cursive;*/
+	box-sizing: border-box;
+}
+
+html, body{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#back-to-main{
+	width: 60px;
+	height: auto;
+	padding: 5px;
+	z-index: 2;
+	background-color: black;
+	font-family: 'Abril Fatface', cursive;
+	color: white;
+	font-size: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 3px;
+}
+
+
+#back-to-main a{
+	text-decoration: none;
+	color: white;
+}
+
+#back-to-main a:hover{
+	color: rgb(84, 206, 236);
+}
+
+
+.next-form{
+	width: 200px;
+	height: auto;
+	padding: 5px;
+	z-index: 2;
+	background-color: black;
+	font-family: 'Abril Fatface', cursive;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	margin: 10px;
+	transform: translate(-50%, 0);
+}
+
+.next-form a{
+	color: white;
+}
+
+.next-form a:hover{
+	color:  rgb(84, 206, 236);
+}
+
+#nf1{
+	bottom: -100%;
+}
+
+#nf2{
+	bottom: -300%;
+}
+
+#header{
+	width: 800px;
+	background: #f7f7f7;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 0;
+	padding: 0;
+	border-radius: 5px;
+	padding-bottom: 30px;
+}
+
+#about{
+	width: 800px;
+	background: #f7f7f7;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*font-size: 0;*/
+	padding: 0;
+	border-radius: 5px;
+	padding-bottom: 30px;
+}
+
+#header h1{
+	font-size: 55px;
+	margin: 0 0 2.5% 0;
+	padding: 10px;
+	width: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: rgb(84, 206, 236);
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
+}
+
+#about h1{
+	font-size: 55px;
+	margin: 0 0 2.5% 0;
+	padding: 10px;
+	width: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: rgb(84, 206, 236);
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
+}
+
+#about p{
+	padding-bottom: 20px;
+}
+
+#header h4{
+	font-size: 24px;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	/*padding: 2%;*/
+	color: #5A5A5A;
+	border: none;
+	outline: none;
+	display: inline-block;
+
+}
+
+.button a{
+	text-decoration: none;
+	color: #5A5A5A;
+	border: 3px solid rgb(84, 206, 236);
+	padding: 10px;
+}
+
+.button a:hover{
+	color: rgb(84, 206, 236);
+}
+
+
+
+.background{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	z-index: 0;
+	opacity: 0.9;
+}
+
+#bg1{
+	top: 0;
+	background: url(images/halftone.png);
+}
+
+#bg1-1{
+	top: 0;
+	background: url(images/stardust.png);
+}
+
+#bg2{
+	top: 100%;
+	background: url(images/stardust.png);
+}
+
+#bg3{
+	top: 200%;
+	background: url(images/halftone.png);
+}
+
+#bg4{
+	top: 300%;
+	background: url(images/stardust.png);
+}
+
+#bg5{
+	top: 400%;
+	background: url(images/halftone.png);
+}
+
+#bg6{
+	top: 500%;
+	background: url(images/stardust.png);
+}
+
+.row{
+	font-size: 0;
+}
+
+.row *:first-child{
+	margin-left: 5%; /*Margin between leftmost element and container*/
+}
+
+.row *:last-child{
+	margin-right: 5%; /*Margin between rightmost element and container*/
+}
+
+.one-column{
+	width: 90%;
+}
+
+.two-column{
+	width: 43%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.four-column{
+	width: 21.5%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+/*form styling*/
+
+.register-form{
+	width: 800px;
+	background-color: #f7f7f7;
+	color: #5A5A5A;
+	padding: 0;
+	border-radius: 5px;
+	font-size: 0; /*hack for not needing to comment out whitespace*/
+
+	
+
+}
+
+#RF-1{
+	/*center form within the body*/
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#RF-2{
+	/*center form within the body*/
+	position: absolute;
+	left: 50%;
+	top: 250%;
+	transform: translate(-50%, -50%);
+}
+
+#RF-3{
+	/*center form within the body*/
+	position: absolute;
+	left: 50%;
+	top: 450%;
+	transform: translate(-50%, -50%);
+}
+
+
+.register-form h1{
+	font-size: 45px;
+	margin: 0 0 2.5% 0;
+	padding: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: rgb(84, 206, 236);
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.register-form input{
+	font-size: 24px;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	padding: 2%;
+	color: #5A5A5A;
+	border: none;
+	outline: none;
+}
+
+.register-form label {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20px;
+	margin: 2.5% 0;
+	/*padding: 2%;*/
+	color: #5A5A5A;
+	border: none;
+	outline: none;
+	display: inline-block;
+
+}
+
+.register-form input:focus{
+	outline: 2px solid rgb(84, 206, 236);
+}
+
+.register-form input[type="submit"]{
+	background-color: rgb(84, 206, 236);
+	color: white;
+	text-transform: uppercase;
+	border-bottom: 2px solid rgb(23, 174, 213);
+	cursor: pointer;
+	font-size: 28px;
+	letter-spacing: 1px;
+}
+
+.register-form input[type="submit"]:hover {
+	background-color: rgb(23, 174, 213);
+}
+
+/*.register-form label{
+	font-size: 20px;
+}
+*/
+/*information printing*/
+
+#welcome-print-out{
+	width: 800px;
+	font-family: 'Abril Fatface', cursive;
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	/*transform: translate(0, 0);*/
+	transform: translate(-50%, -50%);
+	color: white;
+	text-transform: capitalize;
+
+}
+
+.down-arrow{
+	font-family: 'Abril Fatface', cursive;
+	width: 200px;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	padding: 5px;
+}
+
+.images{
+	width: 300px;
+	height: auto;
+	position: absolute;
+	top: 350%;
+	transform: translate(0, -50%);
+	border: 1px solid black;
+	font-size: 0;
+}
+
+#image-one{
+	left: 100px;
+}
+
+#image-two{
+	right: 100px;
+}
+
+#background-color{
+	width: 90px;
+	/*padding: 15px;*/
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	background-color: white;
+	color: #5A5A5A;
+	font-size: 14px;
+
+}
+
+#text-color {
+	width: 90px;
+	/*padding: 15px;*/
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	background-color: white;
+	color: #5A5A5A;
+	font-size: 14px;
+}
+
+
+#final-header{
+	font-size: 40px;
+	position: absolute;
+	top: 500%;
+	left: 5%;
+	z-index: 100;
+	font-family: 'Abril Fatface', cursive;
+}
+
+#final-header:hover{
+	color: rgb(23, 174, 213);
+}
+
+#tagline{
+	position: absolute;
+	top: 510%;
+	left: 10%;
+	z-index: 100;
+	text-transform: uppercase;
+}
+
+#image-one-final{
+	position: absolute;
+	top: 550%;
+	width: 400px;
+	z-index: 100;
+	right: 470px;
+	float: left;
+	display: inline-block;
+	transform: translate(0, -50%);
+
+}
+
+#image-two-final{
+	position: absolute;
+	top: 550%;
+	width: 400px;
+	right: 20px;
+	z-index: 100;
+	display: inline-block;
+	float: right;
+	transform: translate(0, -50%);
+}
+
+#about-tag{
+	position: absolute;
+	top: 504%;
+	right: 5%;
+	text-transform: uppercase;
+	z-index: 100;
+}
+
+#about-tag:hover{
+	color: rgb(23, 174, 213);
+}
+
+#work-tag{
+	position: absolute;
+	top: 504%;
+	right: 12%;
+	text-transform: uppercase;
+	z-index: 100;
+}
+
+#work-tag:hover{
+	color: rgb(23, 174, 213);
+}
+
+#final-footer{
+	font-size: 8px;
+	width: 500px;
+	position: absolute;
+	bottom: -500%;
+	left: 10px;
+	z-index: 100;
+}
+
+
+
+
+
+
