@@ -163,37 +163,37 @@ html, body{
 
 #bg1{
 	top: 0;
-	background: url(images/halftone.png);
+	background: url(halftone.png);
 }
 
 #bg1-1{
 	top: 0;
-	background: url(images/stardust.png);
+	background: url(stardust.png);
 }
 
 #bg2{
 	top: 100%;
-	background: url(images/stardust.png);
+	background: url(stardust.png);
 }
 
 #bg3{
 	top: 200%;
-	background: url(images/halftone.png);
+	background: url(halftone.png);
 }
 
 #bg4{
 	top: 300%;
-	background: url(images/stardust.png);
+	background: url(stardust.png);
 }
 
 #bg5{
 	top: 400%;
-	background: url(images/halftone.png);
+	background: url(halftone.png);
 }
 
 #bg6{
 	top: 500%;
-	background: url(images/stardust.png);
+	background: url(stardust.png);
 }
 
 .row{
